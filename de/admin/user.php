@@ -6,6 +6,6 @@ return [
     ],
     'notices' => [
         'account_created' => 'Account wurde erfolgreich erstellt.',
-        'account_updated' => 'Account wurde erfolgreich upgedated.',
+        'account_updated' => 'Account wurde erfolgreich aktualisiert.',
     ],
 ];
