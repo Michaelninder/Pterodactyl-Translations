@@ -2,13 +2,13 @@
 
 return [
     'permissions' => [
-        'websocket_*' => 'Allows access to the websocket for this server.',
-        'control_console' => 'Allows the user to send data to the server console.',
-        'control_start' => 'Allows the user to start the server instance.',
-        'control_stop' => 'Allows the user to stop the server instance.',
-        'control_restart' => 'Allows the user to restart the server instance.',
-        'control_kill' => 'Allows the user to kill the server instance.',
-        'user_create' => 'Allows the user to create new user accounts for the server.',
+        'websocket_*' => 'Erlaubt zugriff auf dei Websockets des Servers.',
+        'control_console' => 'Erlaubt dem Nutzer daten an die Serverkonsole zu senden.',
+        'control_start' => 'Erlaubt dem Nutzer die Serverinstanz zu starten.',
+        'control_stop' => 'Erlaubt dem Nutzer die Serverinstanz zu stoppen.',
+        'control_restart' => 'Erlaubt dem Nutzer die Serverinstanz neu zu starten.',
+        'control_kill' => 'Erlaubt dem Nutzer die Serverinstanz zu "töten".',
+        'user_create' => 'Erlaubt dem Nutzer neue Nutzer zu dier Serverinstanz hinzu zu fügen',
         'user_read' => 'Allows the user permission to view users associated with this server.',
         'user_update' => 'Allows the user to modify other users associated with this server.',
         'user_delete' => 'Allows the user to delete other users associated with this server.',
