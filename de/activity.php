@@ -39,7 +39,7 @@ return [
         ],
     ],
     'server' => [
-        'reinstall' => 'Reinstalled server',
+        'reinstall' => 'Server wurde neu installiert',
         'console' => [
             'command' => 'Executed ":command" on the server',
         ],
