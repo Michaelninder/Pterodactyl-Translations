@@ -22,31 +22,31 @@ return [
     ],
     'user' => [
         'account' => [
-            'email-changed' => 'Changed email from :old to :new',
-            'password-changed' => 'Changed password',
+            'email-changed' => 'E-mail Addresse von :old zu :new geändert',
+            'password-changed' => 'Passwort geändert',
         ],
         'api-key' => [
-            'create' => 'Created new API key :identifier',
-            'delete' => 'Deleted API key :identifier',
+            'create' => 'Neuer API Key :identifier erstellt',
+            'delete' => 'API key :identifier gelöscht',
         ],
         'ssh-key' => [
             'create' => 'Added SSH key :fingerprint to account',
             'delete' => 'Removed SSH key :fingerprint from account',
         ],
         'two-factor' => [
-            'create' => 'Enabled two-factor auth',
-            'delete' => 'Disabled two-factor auth',
+            'create' => 'Zwei-Faktor-Authentifizierung aktiviert',
+            'delete' => 'Zwei-Faktor-Authentifizierung deaktiviert',
         ],
     ],
     'server' => [
         'reinstall' => 'Server wurde neu installiert',
         'console' => [
-            'command' => 'Executed ":command" on the server',
+            'command' => 'Führte ":command" auf dem Server aus',
         ],
         'power' => [
-            'start' => 'Started the server',
-            'stop' => 'Stopped the server',
-            'restart' => 'Restarted the server',
+            'start' => 'Hat den Server gestartet',
+            'stop' => 'Hat den Server gestoppt',
+            'restart' => 'Hat den Server neu gestartet',
             'kill' => 'Killed the server process',
         ],
         'backup' => [
