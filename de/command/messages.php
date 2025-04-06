@@ -3,10 +3,10 @@
 return [
     'location' => [
         'no_location_found' => 'Could not locate a record matching the provided short code.',
-        'ask_short' => 'Location Short Code',
-        'ask_long' => 'Location Description',
-        'created' => 'Successfully created a new location (:name) with an ID of :id.',
-        'deleted' => 'Successfully deleted the requested location.',
+        'ask_short' => 'Standort Kürzel',
+        'ask_long' => 'Standort Beschreibung',
+        'created' => 'Der Standort :name mit ID :id wurde erfolgreich erstellt.',
+        'deleted' => 'Der Standort wurde Erfolgreich gelöscht.',
     ],
     'user' => [
         'search_users' => 'Enter a Username, User ID, or Email Address',
