@@ -2,9 +2,9 @@
 
 return [
     'notices' => [
-        'created' => 'A new nest, :name, has been successfully created.',
-        'deleted' => 'Successfully deleted the requested nest from the Panel.',
-        'updated' => 'Successfully updated the nest configuration options.',
+        'created' => 'Ein eues Nest, mit namen :name, wurde erstellt.',
+        'deleted' => 'Das Nest wurde erfolgreich vom Panel entfernt.',
+        'updated' => 'Die Konfiguration des Nests wurde erfolgreich aktualisiert.',
     ],
     'eggs' => [
         'notices' => [
