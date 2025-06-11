@@ -14,7 +14,7 @@ return [
         'port_out_of_range' => 'Ports in an allocation must be greater than 1024 and less than or equal to 65535.',
     ],
     'nest' => [
-        'delete_has_servers' => 'A Nest with active servers attached to it cannot be deleted from the Panel.',
+        'delete_has_servers' => 'Ein Nest mit aktiven Servern kann nicht vom Panel gelöscht werden.',
         'egg' => [
             'delete_has_servers' => 'An Egg with active servers attached to it cannot be deleted from the Panel.',
             'invalid_copy_id' => 'The Egg selected for copying a script from either does not exist, or is copying a script itself.',
@@ -22,29 +22,29 @@ return [
             'has_children' => 'This Egg is a parent to one or more other Eggs. Please delete those Eggs before deleting this Egg.',
         ],
         'variables' => [
-            'env_not_unique' => 'The environment variable :name must be unique to this Egg.',
+            'env_not_unique' => 'Die Variable :name muss einzigartig sein.',
             'reserved_name' => 'The environment variable :name is protected and cannot be assigned to a variable.',
             'bad_validation_rule' => 'The validation rule ":rule" is not a valid rule for this application.',
         ],
         'importer' => [
             'json_error' => 'There was an error while attempting to parse the JSON file: :error.',
-            'file_error' => 'The JSON file provided was not valid.',
+            'file_error' => 'Die JSON Datei war nicht valide.',
             'invalid_json_provided' => 'The JSON file provided is not in a format that can be recognized.',
         ],
     ],
     'subusers' => [
         'editing_self' => 'Editing your own subuser account is not permitted.',
         'user_is_owner' => 'You cannot add the server owner as a subuser for this server.',
-        'subuser_exists' => 'A user with that email address is already assigned as a subuser for this server.',
+        'subuser_exists' => 'Ein Nutzer mit dieser E-Mail-Addresse wurde bereits zu diesem server hinzugefügt.',
     ],
     'databases' => [
-        'delete_has_databases' => 'Cannot delete a database host server that has active databases linked to it.',
+        'delete_has_databases' => 'Ein Datenbank Host Server mit aktiven Datenbanken kann nicht gelöscht werden.',
     ],
     'tasks' => [
         'chain_interval_too_long' => 'The maximum interval time for a chained task is 15 minutes.',
     ],
     'locations' => [
-        'has_nodes' => 'Cannot delete a location that has active nodes attached to it.',
+        'has_nodes' => 'Standorte mit Aktiven Nodes können nicht gelöscht werden.',
     ],
     'users' => [
         'node_revocation_failed' => 'Failed to revoke keys on <a href=":link">Node #:node</a>. :error',
