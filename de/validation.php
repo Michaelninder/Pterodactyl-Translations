@@ -100,7 +100,7 @@ return [
 
     // Internal validation logic for Pterodactyl
     'internal' => [
-        'variable_value' => ':env variable',
+        'variable_value' => ':env Variable',
         'invalid_password' => 'Das angegebene Passwort ist für dieses Konto ungültig.',
     ],
 ];
