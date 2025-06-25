@@ -2,6 +2,7 @@
 
 return [
     'sign_in' => 'Anmelden',
+    //'sign_in' => 'Registrieren',
     'go_to_login' => 'Go to Login',
     'failed' => 'No account matching those credentials could be found.',
 
