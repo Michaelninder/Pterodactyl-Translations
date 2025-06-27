@@ -11,7 +11,7 @@ return [
     'user' => [
         'search_users' => 'Enter a Username, User ID, or Email Address',
         'select_search_user' => 'ID of user to delete (Enter \'0\' to re-search)',
-        'deleted' => 'User successfully deleted from the Panel.',
+        'deleted' => 'Nutzer erfolgreisch vom Panel gelöscht.',
         'confirm_delete' => 'Are you sure you want to delete this user from the Panel?',
         'no_users_found' => 'No users were found for the search term provided.',
         'multiple_found' => 'Multiple accounts were found for the user provided, unable to delete a user because of the --no-interaction flag.',
