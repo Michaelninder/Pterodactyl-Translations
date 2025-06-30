@@ -2,13 +2,13 @@
 
 return [
     'email' => [
-        'title' => 'Update your email',
-        'updated' => 'Your email address has been updated.',
+        'title' => 'Aktualisiere deine Email',
+        'updated' => 'Deine Email Addrersse wurde aktualisiert.',
     ],
     'password' => [
-        'title' => 'Change your password',
-        'requirements' => 'Your new password should be at least 8 characters in length.',
-        'updated' => 'Your password has been updated.',
+        'title' => 'Ändere dein Passwort',
+        'requirements' => 'Dein neues Passwort muss mindestens 8 Ziffern enthalten.',
+        'updated' => 'Dein Passwort wurde aktualisiert.',
     ],
     'two_factor' => [
         'button' => 'Configure 2-Factor Authentication',
