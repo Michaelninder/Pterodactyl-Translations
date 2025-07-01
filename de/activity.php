@@ -122,9 +122,9 @@ return [
             'image' => 'Docker-Image des Servers von :old zu :new geändert',
         ],
         'subuser' => [
-            'create' => ':email als Subuser hinzugefügt',
-            'update' => 'Berechtigungen für Subuser :email aktualisiert',
-            'delete' => ':email als Subuser entfernt',
+            'create' => ':email als Subnutzer hinzugefügt',
+            'update' => 'Berechtigungen für Subnutzer :email aktualisiert',
+            'delete' => ':email als Subnutzer entfernt',
         ],
     ],
 ];
